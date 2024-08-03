@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--chakra-colors-gray-700);
+    color: var(--chakra-colors-gray-100);
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+  }
+  
+  .header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header nav ul li {
+    margin: 0 1rem;
+  }
+  
+.header .profile {
+   display: flex;
+    align-items: center;
+  }
